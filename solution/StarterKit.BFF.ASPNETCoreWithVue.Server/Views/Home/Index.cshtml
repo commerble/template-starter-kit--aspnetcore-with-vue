@@ -1,0 +1,28 @@
+﻿@{
+    var items = new[]
+    {
+        new
+        {
+            id = 1179,
+            name = "テスト商品"
+        }
+    };
+}
+
+<ul>
+    @foreach (var item in items)
+    {
+        <li>
+            @item.name
+            <button onclick="cartin(@item.id)">Cart in</button>
+        </li>
+    }
+</ul>
+<a href="/checkout/init">Checkout</a>
+
+<script>
+    async function cartin(item) {
+        const res = await fetch(`/ec/order/cart?item=${item}`);
+        alert('Added to cart!');
+    }
+</script>

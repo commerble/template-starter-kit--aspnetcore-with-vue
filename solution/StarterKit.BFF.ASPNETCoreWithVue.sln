@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterKit.BFF.ASPNETCoreWithVue.Server", "StarterKit.BFF.ASPNETCoreWithVue.Server\StarterKit.BFF.ASPNETCoreWithVue.Server.csproj", "{7A8F98D6-2784-478B-8C2F-3DB289EDCA27}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "starterkit.bff.aspnetcorewithvue.client", "starterkit.bff.aspnetcorewithvue.client\starterkit.bff.aspnetcorewithvue.client.esproj", "{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A8F98D6-2784-478B-8C2F-3DB289EDCA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8F98D6-2784-478B-8C2F-3DB289EDCA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8F98D6-2784-478B-8C2F-3DB289EDCA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8F98D6-2784-478B-8C2F-3DB289EDCA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9123BD-4986-4DAF-B81E-53AC6C962FDF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44040BD6-AE86-40DF-BD2B-6B6B65F4D072}
+	EndGlobalSection
+EndGlobal
